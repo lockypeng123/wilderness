@@ -1,0 +1,539 @@
+/* PC样式 */
+@media screen and (min-width:992px) {
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+html,body {
+    position: relative;
+    height: 100%;
+}
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* header */
+.header{
+    position: relative;
+    width: 100%;
+    height: 1080px;
+    overflow: hidden;
+    background:url("../image1/header-PC.png") no-repeat;
+    background-size: 100% 100%;
+}
+.header .logo{
+    position: absolute;
+    left: 48px;
+    top: 40px;
+    width: 120px;
+    height:59px;
+}
+.header .logo img{
+    width: 100%;
+    height: 100%;
+}
+/* header-center */
+.header .header-top{
+    width: 100%;
+    height: .33px;
+    border-top: 1px solid #fff;
+}
+.header .header-top p{
+    font-size: 24px;
+    color:rgba(0,0,0,0.5);
+    text-align: center;
+    margin-top: 77px;
+}
+.header .header-center{
+    width: 403px;
+    height: 403px;
+    border: 1px dashed #ccc;
+    margin: 0 auto;
+    margin-top: 313px;
+    background: url("../image1/contact-header.png") no-repeat;
+    background-size: 100% 100%;
+}
+.header .header-center h4{
+    font-size: 55px;
+    text-align: center;
+    margin-top:120px;
+    color: #fff;
+}
+.header .header-center p{
+    font-size: 28px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top:2px;
+}
+.header .header-center span{
+    float: left;
+    width: 84px;
+    height: 2px;
+    margin-top: 26px;
+    margin-left:100px;
+    border: 1px dashed #ccc;
+    background-color:#fff;
+}
+/* header-bottom */
+.header .header-bottom{
+    width: 453px;
+    height: 31px;
+    position: absolute;
+    bottom: 35px;
+    left: 300px;
+}
+/* canter */
+    .center{
+        position: relative;
+        widows: 100%;
+        height: 1080px;
+        background: url("../image1/center-wrap.jpg") no-repeat;
+        background-size: 100% 100%;
+    }
+    .center .center-wrap{
+        position: absolute;
+        top:198px;
+        right:46px;
+        width: 867px;
+        height:685px;
+        background: url("../image1/center.wrap.png") no-repeat;
+        background-size: 100% 100%;
+        border: 1px dashed #ccc;
+    }
+    .center .center-wrap>p:nth-child(1){
+        font-size: 32px;
+        color: #DDAB5B;
+        text-align: right;
+        margin-top:31px;
+        margin-right: 56px;
+    }
+    .center .center-wrap>p:nth-child(2){
+        text-align: right;
+        font-size: 24px;
+        color: rgba(255,255,255,.6);
+        margin-top: 4px;
+        margin-right:56px;
+    }
+    .center .center-wrap span{
+        float: right;
+        width:58px;
+        height: 1px;
+        margin-right:56px;
+        border: 1px dashed #ccc;
+    }
+    .center .center-wrap .center-wrap-text{
+        width:676px;
+        height:468px;
+        margin-left:72px;
+        margin-bottom: 63px;
+    }
+    .center .center-wrap .center-wrap-text p{
+        font-size: 24px;
+        color: rgba(255,255,255,.6);
+        margin-top: 36px;
+        letter-spacing:6px;
+    }
+    /* contact 联系我们 */
+     .contact{
+        width: 100%;
+        height:731px;
+        background: url("../image1/contact.png") no-repeat;
+        background-size: 100% 100%;
+        border: 1px dashed #ccc;
+    }
+    .contact>h4{
+        text-align: center;
+        font-size: 55px;
+        margin-top: 72px;
+        color:#fff;
+    }
+    .contact>p{
+        font-size:24px;
+        text-align: center;
+        margin-top: 11px;
+        color: rgba(255,255,255,.6);
+    }
+    .contact .contact-wrap{
+        width:100%;
+        height:381px;
+        
+        margin: 0 auto;
+        margin-top:30px;
+        border: 1px dashed #ccc;
+    } 
+    .contact .contact-wrap .contact-wrap-left{
+        float: left;
+        width: 49%;
+        height:100%;
+    }
+    .contact .contact-wrap .contact-wrap-left h4{
+        font-size: 45px;
+        color: #FFFFFF;
+        margin-left: 106px;
+        margin-top: 69px;
+    }
+    .contact .contact-wrap .contact-wrap-left .contact-wrap-left-p {
+        width:80%;
+        height:132px;
+        margin-top:36px;
+        margin-left:90px;
+    }
+    .contact .contact-wrap .contact-wrap-left .contact-wrap-left-p  p{
+        font-size:24px;
+        color: rgba(255,255,255,.6);
+    }
+    .contact .contact-wrap>span{
+        float: left;
+        width: 1px;
+        height:80px;
+        margin-top: 120px;
+        background-color: #fff;
+    }
+    
+    .contact .contact-wrap #contact-wrap-rihgt{
+        float: right;
+        width:49%;
+        height:100%;
+    }   
+    .contact .contact-wrap #contact-wrap-rihgt h4{
+        font-size: 45px;
+        color: rgba(255,255,255,.6);
+        margin-top:  69px;
+        margin-left: 106px;
+    }
+    .contact .contact-wrap #contact-wrap-rihgt .contact-wrap-rihgt-p{
+        width:80%;
+        height:132px;
+        margin-top: 36px;
+        margin-left:90px;
+    }
+    .contact .contact-wrap #contact-wrap-rihgt .contact-wrap-rihgt-p p{
+        font-size:24px;
+        color: rgba(255,255,255,.6);
+    }
+  /* footer */
+.footer{
+    border-top: 1px solid #ccc;
+    width:100%;
+    height:492px;
+    background: url("../image1/footer-phone.png") no-repeat;
+    background-size: 100% 100%;
+}
+.footer>div{
+    float: left;
+    width: 185px;
+    margin-top: 75px;
+}
+.footer>div h3{
+    font-size: 30px;
+    color: #fff;
+}
+.footer>div p{
+    font-size:24x;
+    height: 83px;
+    line-height: 83px;
+    color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+.footer>div p:nth-child(2){
+    height: 94px;
+    line-height: 84px;
+}
+.footer .footer-ul1{
+    margin-left: 100px;
+}
+.footer .footer-ul2{
+    margin-left:47px;
+}
+.footer .footer-ul3{
+    margin-left:47px;
+}
+.footer .footer-ul4{
+    width: 300px;
+    margin-left:114px;
+}
+.footer .footer-ul4 img{
+    float: left;
+    margin-top: 30px;
+    width: 112px;
+    height: 112px;
+}
+.footer .footer-ul4 img:last-child{
+    margin-left: 37px;
+}
+}
+
+/*  */
+/*  */
+/*  */
+/* 移动端 */
+@media screen and (max-width: 993px) {
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 13.33333vw;
+} 
+    /* header */
+.header{
+        position: relative;
+        width: 7.5rem;
+        height: 10.80rem;
+        background: url("../image1/contact-phone-header.png") no-repeat;
+        background-size: 100% 100%;
+    }
+    .header .logo{
+        position: absolute;
+        left: .56rem;
+        top: .24rem;
+        width: .72rem;
+        height: .35rem;
+    }
+    .header .logo img{
+        float: left;
+        width: 100%;
+        height: 100%; 
+    }
+    .header .header-top{
+        width: 100%;
+        height: .33rem;
+        border-top: 1px solid #fff;
+    }
+    .header .header-top p{
+        font-size: .26rem;
+        color:rgba(0,0,0,0.5);
+        text-align: center;
+        margin-top: .77rem;
+    }
+    .header .header-center{
+        width: 4.03rem;
+        height: 4.03rem;
+        border: 1px dashed #ccc;
+        margin: 0 auto;
+        margin-top: 3.13rem;
+        background: url("../image1/contact-header.png") no-repeat;
+        background-size: 100% 100%;
+    }
+    .header .header-center h4{
+        font-size: .55rem;
+        text-align: center;
+        margin-top:1.2rem ;
+        color: #fff;
+    }
+    .header .header-center p{
+        font-size: .28rem;
+        color: #FFFFFF;
+        text-align: center;
+        margin-top: .02rem;
+    }
+    .header .header-center span{
+        float: left;
+        width: .84rem;
+        height: .02rem;
+        margin-top: .26rem;
+        margin-left: 1rem;
+        border: 1px dashed #ccc;
+        background-color:#fff;
+    }
+    .header .header-img-str{
+        position: absolute;
+        left: 1.49rem;
+        bottom: .35rem;
+        width: 4.53rem;
+        height: .31rem;
+    } 
+.center{
+        position: relative;
+        width: 7.5rem;
+        height: 6.42rem;
+        background: url("../image1/center-wrap.jpg") no-repeat;
+        background-size: 100% 100%;
+    }
+    .center .center-wrap{
+        position: absolute;
+        top: 1.38rem;
+        right: .36rem;
+        width: 4.74rem;
+        height: 4rem;
+        background: url("../image1/center.wrap.png") no-repeat;
+        background-size: 100% 100%;
+        border: 1px dashed #ccc;
+    }
+    .center .center-wrap>p:nth-child(1){
+        font-size: .2rem;
+        color: #DDAB5B;
+        text-align: right;
+        margin-top: .16rem;
+        margin-right: .28rem;
+    }
+    .center .center-wrap>p:nth-child(2){
+        text-align: right;
+        font-size: .13rem;
+        color: rgba(255,255,255,.6);
+        margin-top: .02rem;
+        margin-right: .28rem;
+    }
+    .center .center-wrap span{
+        float: right;
+        width: .27rem;
+        height: .01rem;
+        margin-right: .28rem;
+        margin-top: .05rem;
+        border: 1px dashed #ccc;
+    }
+    .center .center-wrap .center-wrap-text{
+        width: 4.43rem;
+        height: 2.34rem;
+        margin-left: .16rem;
+        margin-top: .15rem;
+    }
+    .center .center-wrap .center-wrap-text p{
+        font-size: .12rem;
+        color: rgba(255,255,255,.6);
+        margin-top: .15rem;
+        letter-spacing: .02rem;
+    }
+    
+    /* contact 联系我们 */
+  .contact{
+        width: 7.48rem;
+        height: 4.54rem;
+        background: url("../image1/contact.png") no-repeat;
+        background-size: 100% 100%;
+        border: 1px dashed #ccc;
+    }
+    .contact>h4{
+        text-align: center;
+        font-size: .28rem;
+        margin-top: .29rem;
+        color:#fff;
+    }
+    .contact>p{
+        font-size: .12rem;
+        text-align: center;
+        margin-top: .06rem;
+        color: rgba(255,255,255,.6);
+        font-size: .12rem;
+    }
+    .contact .contact-wrap{
+        width: 7.13rem;
+        height: 2.13rem;
+        margin-top: .7rem;
+        margin-left: .16rem;
+        border: 1px dashed #ccc;
+    } 
+    .contact .contact-wrap .contact-wrap-left{
+        float: left;
+        font-size: .23rem;
+        width: 3.56rem;
+        margin-right: .15rem;
+        height: 2.13rem;
+    }
+    .contact .contact-wrap .contact-wrap-left h4{
+        font-size: .23rem;
+        color: #FFFFFF;
+        margin-left: .32rem;
+        margin-top: .45rem;
+    }
+    .contact .contact-wrap .contact-wrap-left .contact-wrap-left-p {
+        width: 3.17rem;
+        height: .68rem;
+        margin-top: .18rem;
+        margin-left: .32rem;
+    }
+    .contact .contact-wrap .contact-wrap-left .contact-wrap-left-p  p{
+        font-size: .12rem;
+        color: rgba(255,255,255,.6);
+    }
+    .contact .contact-wrap>span{
+        float: left;
+        width: 1px;
+        height: .8rem;
+        margin-top: .7rem;
+        background-color: #fff;
+    }
+    
+    .contact .contact-wrap #contact-wrap-rihgt{
+        float: right;
+        font-size: .23rem;
+        width: 3.38rem;
+        height: 2.13rem;
+    }   
+    .contact .contact-wrap #contact-wrap-rihgt h4{
+        font-size: .23rem;
+        color: rgba(255,255,255,.6);
+        margin-top: .45rem;
+        margin-left: .35rem;
+    }
+    .contact .contact-wrap #contact-wrap-rihgt .contact-wrap-rihgt-p{
+        width: 2.68rem;
+        height: .68rem;
+        margin-top: .18rem;
+        margin-left: .35rem;
+    }
+    .contact .contact-wrap #contact-wrap-rihgt .contact-wrap-rihgt-p p{
+        font-size: .12rem;
+        color: rgba(255,255,255,.6);
+    }
+    /* footer */
+    .footer{
+        border-top: 1px solid #ccc;
+        width: 7.5rem;
+        height: 2.5rem;
+        background: url("../image1/footer-phone.png") no-repeat;
+        background-size: 100% 100%;
+    }
+    .footer div{
+        float: left;
+        margin-top: .26rem;
+        width: 1.06rem;
+        margin-left: .2rem;
+    }
+    .footer div:nth-child(1){
+        height: .4rem;
+        margin-left: .61rem;
+    }
+    .footer div p{
+        height: .33rem;
+        width: 1.06rem;
+        line-height: .33rem;
+    }
+    .footer div:nth-child(1) p{
+        border-bottom: 1px dashed #ccc !important;
+    }
+    .footer div p:nth-child(2){
+        height: .4rem;
+        line-height: .4rem;
+        border-bottom: 1px solid #ccc;
+    }
+    
+    .footer div h3{
+        font-size: .16rem;
+        color: #fff;
+    }
+    .footer div p{
+        font-size: .14rem;
+        color: #fff;
+        border-bottom: 1px solid #ccc;
+    }
+    .footer .footer-ul4{
+        width: 2rem;
+        height: 1rem;
+        margin-left: .4rem;
+    }
+    .footer .footer-ul4 img{
+        float: left;
+        width: .44rem;
+        height: .44rem;
+        margin-top: .1rem;
+    }
+    .footer .footer-ul4 .erweima-img{
+        margin-left: .2rem;
+    } 
+}
